@@ -5,6 +5,8 @@ core = 7.x
 engine = phptemplate
 
 ; Add a style sheet for all media
-stylesheets[all][] = dlts_media_embed.css
+stylesheets[all][] = dlts_embed.css
 
 regions[content] = Content
+
+; scripts[] = dlts_embed.js
